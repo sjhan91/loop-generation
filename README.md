@@ -18,7 +18,7 @@ This repository is the implementation of "Music Loop Extraction and Generation f
 
 ### Data Preprocess
 
-TBD
+You can refer to https://github.com/sjhan91/BERT-stranger
 
 ### Model Training
 You should modify [config.json](/config/config.json) for model configuration change ("**GPT-3 Small**", "**GPT-3 Medium**"). By setting "strategy" (ex. ddp) in [train.py](/train.py) and "gpus" in [config.json](/config/config.json) (ex. [0, 1, 2]), you can train the models with distributed GPU settings of pytorch-lightining. Here is an example of **GPT-Medium** configurations.
